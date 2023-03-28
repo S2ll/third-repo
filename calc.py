@@ -11,6 +11,10 @@ def mul_func(n1, n2) :
     retValue = n1 * n2
     return retValue
 
+def div_func(n1, n2) :
+    retValue = n1 / n2
+    return retValue
+
 
 
 ## 전역 변수부
@@ -29,3 +33,6 @@ print(num1, "-", num2, "=", result)
 
 result = mul_func(num1, num2)
 print(num1, "*", num2, "=", result)
+
+result = div_func(num1, num2)
+print(num1, "/", num2, "=", result)
