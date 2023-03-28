@@ -15,6 +15,10 @@ def div_func(n1, n2) :
     retValue = n1 / n2
     return retValue
 
+def dmul_func(n1) :
+    retValue = n1 * n1
+    return retValue
+
 
 
 ## 전역 변수부
@@ -36,3 +40,6 @@ print(num1, "*", num2, "=", result)
 
 result = div_func(num1, num2)
 print(num1, "/", num2, "=", result)
+
+result = dmul_func(num1)
+print(num1, "*", num1, "=", result)
